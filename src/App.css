@@ -1,0 +1,38 @@
+*
+{
+  font-family: 'Bahnschrift Condensed';
+}
+
+body
+{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar
+{
+  width: 0;
+}
+
+.about
+{
+  line-height: 60px;
+}
+
+.shape
+{
+background: white;
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255,255,255,0.25);
+}
+
+.mywords
+{
+  line-height: 60px;
+}
+
+h1
+{
+  font-family: 'Roboto Condensed', sans-serif;
+}
