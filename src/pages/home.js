@@ -8,10 +8,14 @@ import brain from '../Image/brain2.webp'
 import clock from '../Image/clock.webp'
 import { Link } from 'react-router-dom'
 import pencil_hand from '../Image/workpencil.webp' 
+import dp from '../Image/5-high-top-fade-with-disconnected-side-part.webp'
+import left from '../icon/icons8-arrow-94 (1).png'
+import right from '../icon/icons8-arrow-94.png'
 
 const Home = () => {
   return (
     <div>
+
                <section className='flex items-center justify-center'>
                               <img src={hello} alt=''/>
                </section>
@@ -26,7 +30,7 @@ const Home = () => {
                               </div>
 
                               <div className='mt-40 lg:mt-72'>
-                                             <h1 className='flex items-center justify-center mt-20 text-9xl font-extrabold lg:text-[400px] font-mono'>What</h1>
+                                             <h1 className='flex items-center justify-center mt-20 text-9xl font-extrabold lg:text-[400px] font-[Bebas Neue]'>What</h1>
                                              <div className='lg:flex lg:items-center lg:justify-center lg:w-[60%] m-auto lg:mt-[-110px]'>
                                                             <div className='text-center mb-10'>
                                                                            <img src={speaker} alt=''  className='mx-auto h-44 mb-10'/>
@@ -65,11 +69,28 @@ const Home = () => {
                                              <Link to='' className='underline text-3xl pt-10'>Lets Talk</Link>
                               </div>
 
-                              <h1 className='flex items-center justify-center mt-20 text-8xl font-extrabold lg:text-[400px] lg:text[900] font-[Rubik]'>Work</h1>
-                              <img src={pencil_hand} alt='' className='mx-auto mt-[-110px]'/>
+                              <h1 className='flex items-center justify-center mt-64 text-8xl font-extrabold lg:text-[400px] lg:text[900] font-[Bebas Neue]'>Work</h1>
+                              <img src={pencil_hand} alt='' className='mx-auto mt-[-150px]'/>
                </section>
 
-               <section className='p-10 w-full'>
+               <section className='bg-gray-800 py-[4%]'>
+                              <h1 className='text-center text-6xl py-5 mt-10'>Reviews</h1>
+                              <div className='flex items-center justify-around'>
+                                             <div>
+                                                            <img src={right} alt='' />
+                                             </div>
+                                             <div className='text-center py-[2%]'>
+                                                            <img src={dp} alt='' className='mx-auto w-[150px] h-[150px] rounded-full'/>
+                                                            <h4 className='text-1xl w-[55%] mx-auto my-10 font-extralight'>We formed By Experience in 2018 to continue to aim high and bring creative ideas to life for a broader set of clients via our</h4>
+                                                            <p className=' text-xl mb-10 '>John Doe</p>
+                                             </div>
+                                             <div>
+                                                            <img src={left } alt='' />
+                                             </div>
+                              </div>
+               </section>
+
+               <section className='p-10 my-32 w-full'>
                               <div className=' w-[100%] lg:w-[30%] lg:ml-72'>
                                              <h2 className='text-[40px] lg:text-[60px] about mb-7 font-extrabold font-[Bahnschrift Condensed]'>So what makes us different</h2>
                                              <p className='text-[16px] mb-10 font-extralight text-p-color'>So what makes us different Creativity and Efficiency must co-exist for commercial design to be effective. We don't just believe this - we practise it daily. Whatever your challenge, opportunity or goal, we design and deliver exceptional solutions on time and budget.</p>
