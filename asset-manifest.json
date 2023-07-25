@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8312eb1b.css",
+    "main.js": "/static/js/main.e77a6820.js",
+    "static/media/workpencil.webp": "/static/media/workpencil.b1f69386679b74068b68.webp",
+    "static/media/brain2.webp": "/static/media/brain2.7542329dc3ba3b94ad87.webp",
+    "static/media/clock.webp": "/static/media/clock.b7f5cfef7a8e72094abd.webp",
+    "static/media/5-high-top-fade-with-disconnected-side-part.webp": "/static/media/5-high-top-fade-with-disconnected-side-part.13e49d8f00e99e59d707.webp",
+    "static/media/megaphone.webp": "/static/media/megaphone.41bb1338b619a3c06324.webp",
+    "static/media/icons8-instagram-94.png": "/static/media/icons8-instagram-94.de648ccdbd2e455e6249.png",
+    "static/media/icons8-github-94.png": "/static/media/icons8-github-94.7acde23236a5c7507398.png",
+    "static/media/6b8bd7_f000 (1).webp": "/static/media/6b8bd7_3ae46f1eedf34b47a9002f585cd96a31f000 (1).7dfbccd17c8a2873de0b.webp",
+    "static/media/icons8-close-94.png": "/static/media/icons8-close-94.193593e8a806a3dbfd14.png",
+    "static/media/icons8-plus-94.png": "/static/media/icons8-plus-94.42a5b35fdc411c39c411.png",
+    "static/media/smallbrain.webp": "/static/media/smallbrain.44999ea02398905550f4.webp",
+    "static/media/lightbulb.webp": "/static/media/lightbulb.141c7ff8a14d127ff465.webp",
+    "static/media/smallear.webp": "/static/media/smallear.f95edbaf131881611ea6.webp",
+    "static/media/computer.webp": "/static/media/computer.7688eb7914aac353e96e.webp",
+    "index.html": "/index.html",
+    "main.8312eb1b.css.map": "/static/css/main.8312eb1b.css.map",
+    "main.e77a6820.js.map": "/static/js/main.e77a6820.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8312eb1b.css",
+    "static/js/main.e77a6820.js"
+  ]
+}
