@@ -9,7 +9,7 @@ import Contact from './Components/Contact'
 function App() {
   const [model, setModel] = useState(false)
   return (
-    <div className="App bg-bg-color text-white">
+    <div className="App bg-bg-color text-white w-full">
       <BrowserRouter>
               <Header setModel={setModel}/>
               {model === true &&(<Contact setModel={setModel}/>)}

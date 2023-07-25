@@ -8,14 +8,14 @@ import git from '../icon/icons8-github-94.png'
 function Nav({setModel}) {
   return (
     <div className='w-full'>
-               <nav className=' w-full bg-red-600'>
-                    <div className='fixed items-center top-10 left-32'><div className='flex items-center'><h1 className='items-center text-2xl capitalize mr-5'>SAVAGE </h1><img src={comp} alt='' className='w-[20%]'/></div></div>
+               <nav className=' w-full'>
+                    <div className='fixed items-center lg:top-10 lg:left-32 top-7 left-5'><div className='flex items-center'><h1 className='items-center text-2xl capitalize mr-5'>SAVAGE </h1><img src={comp} alt='' className='w-[20%]'/></div></div>
 
-                      <div className='fixed top-10 right-10'>
-                          <button className='font-extralight mt-[-2px] mb-16' onClick={() => setModel(true)}><img src={plus} alt='' className='w-[40px]'/></button>
+                      <div className='fixed lg:top-10 lg:right-10 top-9 right-[-40px]'>
+                          <button className='font-extralight mt-[-2px] mb-16' onClick={() => setModel(true)}><img src={plus} alt='' className='w-[30px] lg:w-[40px]'/></button>
                           <ul>
-                            <li className='mb-5'><Link><img src={insta} alt='' className='w-[30%]'/></Link></li>
-                            <li><Link><img src={git} alt='' className='w-[30%]'/></Link></li>
+                            <li className='mb-5'><Link><img src={insta} alt='' className='w-[25%] lg:w-[30%]'/></Link></li>
+                            <li><Link to='https://github.com/youngsavage-codes'><img src={git} alt='' className='w-[25%] lg:w-[30%]'/></Link></li>
                           </ul>
                       </div>
                </nav>

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-gray-800 py-48'>
-               <div className='w-[65%] flex items-start justify-between mx-auto'>
-                              <ul>
+    <div className='w-full bg-gray-800 py-32 lg:py-48'>
+               <div className='w-[65%] lg:flex lg:items-start lg:justify-between mx-auto'>
+                              <ul className='mb-10 '>
                                 <h3 className='text-2xl mb-5'>Design by experience</h3>
                                   <li className='font-extralight'>Brand Positioning</li>
                                   <li className='font-extralight'>Brand Guidelines</li>
@@ -16,7 +16,7 @@ const Footer = () => {
                                   <li className='font-extralight'>Motion Design</li>
                               </ul>
 
-                              <ul>
+                              <ul className='mb-10 '>
                                 <h3 className='text-2xl mb-5'>Learn By Experience</h3>
                                   <li className='font-extralight'>Instructional Design</li>
                                   <li className='font-extralight'>Learning Software Design</li>
@@ -26,7 +26,7 @@ const Footer = () => {
                                   <li className='font-extralight'>School Marketing Services</li>
                               </ul>
 
-                              <ul>
+                              <ul className='mb-10 '>
                                 <h3 className='text-2xl mb-5'>Strategy By Experience</h3>
                                   <li className='font-extralight'>Business Transformation</li>
                                   <li className='font-extralight'>Digital Transformation</li>
@@ -35,7 +35,7 @@ const Footer = () => {
                                   <li className='font-extralight'>Service Design</li>
                               </ul>
 
-                              <ul>
+                              <ul className='mb-10 '>
                                 <h3 className='text-2xl mb-5'>On-Demand By Experience</h3>
                                   <li className='font-extralight'>Creative & Art Direction</li>
                                   <li className='font-extralight'>Design Leadership</li>
@@ -47,13 +47,13 @@ const Footer = () => {
                               </ul>
                </div>
 
-               <div className='w-[65%] flex items-start justify-between mx-auto mt-20'>
-                    <div>
+               <div className='w-[65%] lg:flex lg:items-start lg:justify-between mx-auto mt-20'>
+                    <div className='w-full lg:w-[25%] my-10'>
                         <h3 className='mb-3'>© By Experience Ltd, 2020. </h3>
                         <p className='font-extralight'>All Rights Reserved | Company registered in England & Wales number: 11469161</p>
                     </div>
 
-                    <div className='text-right w-[25%]'>
+                    <div className='lg:text-right w-full lg:w-[25%]'>
                         <h3 className=''>Registered Office:</h3>
                         <address className='font-extralight my-3'>
                               Guardian House, 42 Preston New Road, Blackburn, England, BB2 6AH
