@@ -10,7 +10,7 @@ function App() {
   const [model, setModel] = useState(false)
   return (
     <div className="App bg-bg-color text-white w-full">
-      <BrowserRouter>
+      <BrowserRouter basename='/Portfolio'>
               <Header setModel={setModel}/>
               {model === true &&(<Contact setModel={setModel}/>)}
               <Routes>
